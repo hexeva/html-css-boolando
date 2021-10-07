@@ -22,11 +22,9 @@ img{
 
 
 
-.product:hover .invisible{
+.product{
     width: 25%;
     display: inline-block;
-    padding: 5px;
-    
     
 }
 
@@ -76,6 +74,9 @@ img{
 
 .invisible{ 
     display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* END COMMON */
@@ -103,6 +104,10 @@ img{
 }
 
 /* row */
+
+.product:hover .invisible{
+    display: inline-block;
+}
 
 
 
