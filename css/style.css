@@ -27,6 +27,7 @@ img{
     display: inline-block;
     padding: 5px;
     
+    
 }
 
 .row{
@@ -71,6 +72,10 @@ img{
     height: 24px;
     background-color: red;
     padding:5px 0;
+}
+
+.invisible{
+    display: none;
 }
 
 /* END COMMON */
