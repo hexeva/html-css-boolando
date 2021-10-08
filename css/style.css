@@ -113,6 +113,35 @@ img{
     display: inline-block;
 }
 
+/* DESCRIPTION AND PRICES */
+
+.brand{
+    text-align: left;
+    font-size: small;
+    opacity: 0.8;
+}
+
+.description{
+    text-align: left;
+    font-size: 13px;
+    font-weight:700;
+}
+
+.price{
+    text-align: left;
+    font-size: small;
+    color: red;
+    font-weight:700;
+}
+
+div span{
+    color: black;
+    text-decoration: line-through;
+}
+
+/* end DESCRIPTION AND PRICES */
+
+
 
 
 
