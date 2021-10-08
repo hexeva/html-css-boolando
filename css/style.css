@@ -25,22 +25,25 @@ img{
 .product{
     width: 25%;
     display: inline-block;
+    position: relative;
     
 }
 
-.row{
+.row.up{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
     display: inline-block;
-    
-    
 }
 
-.product{
-    position: relative;
-    
+.row.down{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+
 }
+
 
 
 
@@ -110,13 +113,13 @@ img{
     display: inline-block;
 }
 
-.price{
-    display: inline-block;
-    background-color: rgb(197, 172, 221);
-    width: 25%;
-    height: 100px;
 
-}
+
+
+
+
+
+
 
 
 
