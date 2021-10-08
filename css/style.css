@@ -39,7 +39,7 @@ img{
 .row.down{
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: inline-block;
 
 }
@@ -60,6 +60,7 @@ img{
     border-left: 1px solid #eee;
     width: 40px;
     height: 40px;
+    z-index: 3;
 }
 
 .discount{
@@ -74,6 +75,7 @@ img{
     height: 24px;
     background-color: red;
     padding:5px 0;
+    z-index: 3;
 }
 
 .invisible{ 
@@ -98,6 +100,7 @@ img{
     font-size: 12px;
     font-weight:200;
     padding: 5px 0;
+    z-index: 3;
     
 }
 
