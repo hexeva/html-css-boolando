@@ -82,9 +82,7 @@ img{
 
 .invisible{ 
     display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
+   
 }
 
 /* END COMMON */
@@ -116,6 +114,10 @@ img{
 
 .product:hover .invisible{
     display: inline-block;
+}
+
+.product:hover .visible{
+    display: none;
 }
 
 /* DESCRIPTION AND PRICES */
